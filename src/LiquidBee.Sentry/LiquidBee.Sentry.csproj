@@ -1,6 +1,15 @@
 <Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
         <TargetFramework>netstandard2.0</TargetFramework>
+        <PackageId>LiquidBee.Sentry</PackageId>
+        <PackageVersion>1.0.1</PackageVersion>
+        <Authors>Jakub Janata</Authors>
+        <Description>Sentry package</Description>
+        <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+        <PackageReleaseNotes>First release</PackageReleaseNotes>
+        <PackageIconUrl>https://ifire.cz/liquid-bee/icon-64x64.png</PackageIconUrl>
+        <Copyright>Copyright 2018 Jakub Janata. MIT License</Copyright>
+        <PackageTags>sentry</PackageTags>
     </PropertyGroup>
     <ItemGroup>
         <PackageReference Include="RavenSharp.Core" Version="1.0.0-beta-1"/>
