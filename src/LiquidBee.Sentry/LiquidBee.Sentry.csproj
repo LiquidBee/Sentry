@@ -2,7 +2,7 @@
     <PropertyGroup>
         <TargetFramework>netstandard2.0</TargetFramework>
         <PackageId>LiquidBee.Sentry</PackageId>
-        <PackageVersion>1.0.1</PackageVersion>
+        <PackageVersion>1.0.2</PackageVersion>
         <Authors>Jakub Janata</Authors>
         <Description>Sentry package</Description>
         <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>

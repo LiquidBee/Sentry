@@ -16,7 +16,9 @@ namespace LiquidBee.Sentry
 
         public ISentryRequest Create()
         {
-            var httpRequest = _accessor.HttpContext.Request;
+            var httpRequest = _accessor?.HttpContext?.Request;
+
+            if (httpRequest == null) return new SentryRequest();
 
             var request = new SentryRequest
             {
